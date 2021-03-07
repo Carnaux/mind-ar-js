@@ -2,7 +2,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="./mindar.prod.js?1"></script>
+    <script src="./mindar.prod.js"></script>
 
     <script>
       const showInfo = () => {
@@ -205,7 +205,7 @@
 	</div>
       </div>
 
-      <a-scene mindar="imageTargetSrc: ./assets/card-example/card.mind; showStats: false; autoStart: true" embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-scene mindar="imageTargetSrc: ./assets/card-example/card.mind; showStats: false; autoStart: true; uiError: no; uiLoading: no; uiScanning: no" embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
           <img id="card" src="./assets/card-example/card.png" />
           <img id="icon-web" src="./assets/card-example/icons/web.png" />
